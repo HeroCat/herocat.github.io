@@ -1,11 +1,11 @@
 # Basic
-title: HeroCat
-subtitle: PM & UXer
-welcome_message: <a target="_blank" href="http://blog.herocat.cn"><font size="3" color="#A5C1CD">梦想 · 自由</a>
-description: Hi，我是燕凯(HeroCat)，一名PM&UXer，现居北京。喜欢产品设计和体验新技术，爱分享！目前在探索新零售的路上...
-creator: <a href="http://blog.herocat.cn">@herocat</a>
+title: Vno Jekyll
+subtitle: A blog-orientation theme for Jekyll
+welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: Vno Jekyll is a port of my Ghost theme vno.
+creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://blog.herocat.cn"
+url: "http://vno.onevcat.com"
 
 permalink: /:year/:month/:title/
 
@@ -13,18 +13,16 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
+cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客
-    description: Cat's Blog
+    title: Blog
+    description: Visit blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: 分类, description: home, url: 'http://blog.herocat.cn'}
-    - {title: 关于, description: home, url: 'http://blog.herocat.cn'}
-    - {title: 订阅, description: home, url: 'http://blog.herocat.cn/feed.xml'}
+    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -34,16 +32,16 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: herocat
+    disqus: vno-jekyll
     # duoshuo: 
     
 # Social
 social:
-    weibo: 
-    github: herocat
-    twitter: yankaia
-#    gplus: 107108267983477358170
-    mail: yankai@herocat.cn
+    weibo: onevcat
+    github: onevcat
+    twitter: onevcat
+    gplus: 107108267983477358170
+    mail: onev@onevcat.com
 
 # Google Analytics
 ga:
